@@ -89,6 +89,6 @@ function mouseOverCell(e) {
 function clearGrid () {
     let allGridCells = gridContainerDiv.querySelectorAll(".gridCell");
     allGridCells.forEach( div => {
-        div.backgroundColor="white";
+        div.style.backgroundColor="white";
     }); 
 }

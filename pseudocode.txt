@@ -1,0 +1,41 @@
+Setting up the HTML
+-------------------
+create the following sections:
+- Title
+    - Instructions
+- Selecting grid size input
+- Selecting penColor (dropdown list including random)
+- Grid
+- Clear Grid button
+
+Initialization
+--------------
+set gridSize to 16 (x16)
+set penColor to default (black)
+
+
+Creating the grid
+-------------------
+FOR i=1 to gridSize
+    create row-div and add to grid
+    FOR j=1 to gridSize
+        create column-div and add to Grid
+In CSS define flex for row-grids and column-grids
+
+
+Coloring the grid
+-----------------
+Add mouse-over event for each square to change the square's color to be the penColor
+
+
+Modifying the grid size
+-----------------------
+Add event listener to the input's button
+On click, check it is an integer number no larger than 100
+Clear the grid dive and recreate it with the new size
+
+
+Changing penColor
+------------------
+on selection of color modify the penColor
+

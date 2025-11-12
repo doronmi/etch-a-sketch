@@ -35,7 +35,22 @@ body {
     aspect-ratio: 1;
 
     flex-grow: 1;
+}
 
-    
-    
+#instructionsP {
+    font-size: 14px;
+    margin-bottom: 30px;
+}
+
+#gridSizeSelectorDiv {
+    font-size: 16px;
+    margin: ;
+}
+
+#selectorsContainerDiv {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 14px;
 }

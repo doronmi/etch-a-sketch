@@ -15,18 +15,39 @@
             </br>You can also clear the grid or change its size
         </p>
     </div>
-    <div id="gridSizeSelectorDiv">
-            <input id="gridSizeSelectorRange" type="range">
-            <span id="gridSizeSelectorSpan">xx<pan>
-    </div>
-    <div id="penColorSelector">
-        <label for="penColorOptions">Pick a pen color:</label>
-        <select id="penColorOptions"></select>
+    <div id="selectorsContainerDiv">
+        <div id="penColorSelector">
+            <label for="penColorOptions">Pick a pen color:</label>
+            <select id="penColorOptions"></select>
+        </div>
+        <div id="modeSelector">
+            <fieldset>
+                <Legend>Select coloring mode:</Legend>
+                <div>
+                    <input type="radio" id="addLayerRadioOption" name="mode" value="addLayer" checked>
+                    <label for="addLayerRadioOption">Add layer</label>
+                </div>
+                <div>
+                    <input type="radio" id="overwriteRadioOption" name="mode" value="overwrite">
+                    <label for="overwriteRadioOption">Overwrite</label>
+                </div>
+                <div>
+                    <input type="radio" id="eraserRadioOption" name="mode" value="eraser">
+                    <label for="overwriteRadioOption">Eraser</label>
+                </div>
+                
+            </fieldset>  
+        </div>
+        <div id="gridSizeSelectorDiv">
+                <input id="gridSizeSelectorRange" type="range">
+                <span id="gridSizeSelectorSpan">xx<pan>
+        </div>
+        
     </div>
     <div id="gridContainerDiv"></div>
     <div id="clearGridDiv">
         <button id="clearGridButton">Clear the grid</button>
     </div>
-
+   
 </body>
 </html>
